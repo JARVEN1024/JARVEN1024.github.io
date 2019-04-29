@@ -1,37 +1,32 @@
-## Welcome to GitHub Pages
-
-You can use the [editor on GitHub](https://github.com/JARVEN1024/JARVEN1024.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/JARVEN1024/JARVEN1024.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+			*{margin: 0;padding: 0;font-family: "微软雅黑";list-style: none;}
+			.out{width:600px;height: 300px;margin: 150px auto;border: 1px solid lightgray;}
+			.out ul li{width: 70px;height:300px;float: left;position: relative;}
+		</style>
+		<script type="text/javascript" src="js/jquery-3.3.1.js" ></script>
+		<script type="text/javascript">
+			$(function(){
+				$(".out ul li").mouseover(function(){
+					var d=$(".out ul li");
+					var index=d.index(this);
+					$(".out ul li").eq(index).css("width","390px").siblings().css("width","70px");
+				})
+			})
+		</script>
+	</head>
+	<body>
+		<div class="out">
+			<ul>
+				<li style="background-color:coral;"></li>
+				<li style="background-color:rosybrown;" ></li>
+				<li style="background-color:lightcoral;"></li>
+				<li style="background-color: lightgreen;width: 390px;height:300px;"></li>
+			</ul>
+		</div>
+	</body>
+</html>
