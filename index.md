@@ -3,30 +3,21 @@
 	<head>
 		<meta charset="UTF-8">
 		<title></title>
-		<style type="text/css">
+<!-- 		<style type="text/css">
 			*{margin: 0;padding: 0;font-family: "微软雅黑";list-style: none;}
 			.out{width:600px;height: 300px;margin: 150px auto;border: 1px solid lightgray;}
 			.out ul li{width: 70px;height:300px;float: left;position: relative;}
-		</style>
-		<script type="text/javascript" src="js/jquery-3.3.1.js" ></script>
-		<script type="text/javascript">
-			$(function(){
-				$(".out ul li").mouseover(function(){
-					var d=$(".out ul li");
-					var index=d.index(this);
-					$(".out ul li").eq(index).css("width","390px").siblings().css("width","70px");
-				})
-			})
-		</script>
+		</style> -->
 	</head>
 	<body>
-		<div class="out">
+<!-- 		<div class="out">
 			<ul>
 				<li style="background-color:coral;"></li>
 				<li style="background-color:rosybrown;" ></li>
 				<li style="background-color:lightcoral;"></li>
 				<li style="background-color: lightgreen;width: 390px;height:300px;"></li>
 			</ul>
-		</div>
+		</div> -->
+		<a>钟厚渊板婆，骚拐婆，哼！！！</a>
 	</body>
 </html>
